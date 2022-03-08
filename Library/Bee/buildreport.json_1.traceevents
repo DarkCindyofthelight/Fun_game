@@ -1,0 +1,396 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1646769983980694, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769983981893, "dur": 17313, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769983999341, "dur": 69196, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769984068549, "dur": 22710, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769985934987, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769985935149, "dur": 16809, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769985951961, "dur": 64216, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769986016178, "dur": 12596, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769986029245, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1646769985974115, "dur":4165, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985978286, "dur":49, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1646769985978347, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1646769985978357, "dur":400, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1646769985978780, "dur":342, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985979122, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990268, "dur":125, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990394, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990404, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990406, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990412, "dur":330, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990742, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990751, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990753, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990757, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990757, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990761, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990761, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990765, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990766, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990769, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990770, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990774, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990774, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990778, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990779, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990782, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990782, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990786, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990786, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990790, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990791, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990795, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990796, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990799, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990800, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990803, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990804, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990808, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990814, "dur":0, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985990823, "dur":1039, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1646769985979321, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985979322, "dur":2855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982185, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982297, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982340, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982382, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982433, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982482, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982531, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982583, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982640, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982696, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982744, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982784, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982919, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985982987, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985983037, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985983081, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985983117, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1646769985983158, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985983199, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1646769985983237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1646769985985670, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1646769985986705, "dur":3561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985979436, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985979436, "dur":2783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982219, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982297, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982345, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982402, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982547, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982593, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982644, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982698, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982747, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982788, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985982879, "dur":4933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1646769985987812, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1646769985987865, "dur":2398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985979052, "dur":117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985979169, "dur":3004, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982186, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982188, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982246, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982247, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982309, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982363, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982414, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982455, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982503, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982548, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982586, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982640, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982681, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982725, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982767, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982858, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985982917, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1646769985983295, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985983343, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1646769985983437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1646769985988910, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1646769985989807, "dur":487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985979170, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985979170, "dur":3007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982186, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982272, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982322, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982383, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982441, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982505, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982580, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982632, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982686, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982734, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982776, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982921, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985982988, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985983037, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985983083, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1646769985983122, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985983158, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1646769985983203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1646769985984510, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1646769985987984, "dur":2306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985979595, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985979596, "dur":2624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982220, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982299, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982359, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982421, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982472, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982515, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982571, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982612, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982653, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982703, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982761, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982809, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982882, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982939, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985982991, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985983042, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985983086, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1646769985983142, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985983196, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1646769985983248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1646769985987242, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1646769985988414, "dur":1873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985980697, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985980697, "dur":1493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982191, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982293, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982342, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982386, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982436, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982490, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982534, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982585, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982642, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982687, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982737, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982777, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982864, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982938, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985982979, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985983018, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985983058, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1646769985983102, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985983142, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1646769985983193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1646769985983771, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1646769985985791, "dur":4474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985979285, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985979286, "dur":2892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982185, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982312, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982371, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982424, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982472, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982517, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982566, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982610, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982655, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982707, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982767, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982920, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985982991, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985983041, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985983082, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1646769985983119, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985983161, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1646769985983204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1646769985985029, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1646769985986841, "dur":3421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985979558, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985979558, "dur":2620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982185, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982302, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982378, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982504, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982574, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982621, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982661, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982706, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982760, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982809, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985982938, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1646769985983007, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985983055, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1646769985983096, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985983139, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1646769985983194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1646769985984115, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1646769985985895, "dur":4369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1646769985979715, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1646769985979715, "dur":2507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1646769985982222, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1646769985982319, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1646769985982379, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1646769985982445, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1646769985982507, "dur":5368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1646769985987876, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1646769985987956, "dur":2338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985979985, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985979986, "dur":2235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982221, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982298, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982348, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real.exe" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982423, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982468, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982516, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982580, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982631, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982686, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982734, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982777, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1646769985982937, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983007, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983053, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983096, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983139, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983183, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983300, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983330, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1646769985983357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1646769985988556, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1646769985989485, "dur":781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985979845, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985979846, "dur":2339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982187, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982271, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982317, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982380, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982435, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982495, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982547, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982588, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982641, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982689, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982738, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982779, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985982876, "dur":4785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1646769985987662, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1646769985987707, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985980197, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985980197, "dur":1983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982186, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982309, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982370, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982435, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982479, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982527, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982575, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982615, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982655, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982709, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982760, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982861, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985982917, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1646769985983128, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985983170, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1646769985983273, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985983310, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1646769985983337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1646769985988112, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1646769985989036, "dur":1257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985980017, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985980017, "dur":2176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982193, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982301, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982351, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982397, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982437, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982493, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982546, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982596, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982646, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982704, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982757, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982800, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985982881, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1646769985983399, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985983441, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1646769985983600, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1646769985983642, "dur":6624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985980454, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985980454, "dur":1767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982221, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982313, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982370, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982417, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982478, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982531, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982584, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982643, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982695, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982741, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982782, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982880, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982936, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985982977, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985983015, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985983056, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985983101, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1646769985983145, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985983195, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1646769985983238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1646769985986165, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1646769985987875, "dur":2421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985980813, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985980813, "dur":1369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982186, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982269, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982314, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982378, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982433, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982514, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982575, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982628, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982678, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982714, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982775, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982873, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982928, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985982973, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985983037, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985983092, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985983135, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1646769985983299, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985983343, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1646769985983476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1646769985989384, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1646769985990248, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1646769985990249, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985980320, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985980320, "dur":1898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982219, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982301, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982355, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982418, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982465, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982507, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982566, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982605, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982653, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982703, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982755, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982808, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982861, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985982984, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985983030, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985983069, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985983106, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1646769985983147, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985983191, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PONG FUN GAME/fun game for real_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1646769985983243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1646769985986666, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PONG FUN GAME/fun game for real_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1646769985988722, "dur":1549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1646769985992899, "dur":943, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1646769986029319, "dur": 378, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1646769986029233, "dur": 488, "ph": "X", "name": "Write chrome-trace events", "args": {} },
